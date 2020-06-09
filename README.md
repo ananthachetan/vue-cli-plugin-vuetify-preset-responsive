@@ -4,7 +4,7 @@
 
 ### ⚡ Visit the [Vuetify Presets page](https://vuetifyjs.com/en/customization/presets) for preset details
 
-### ⚡ Visit [Fluid Responsive Typography With CSS Poly Fluid Sizing](https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fluid-sizing/) for resizing details 
+### ⚡ Visit [Fluid Responsive Typography With CSS Poly Fluid Sizing](https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fluid-sizing/) for resizing details
 
 ### 🚀 Usage
 

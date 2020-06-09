@@ -11,7 +11,10 @@
     @error "linear-interpolation() $map must be exactly 2 values";
   }
   // The slope
-  $m: (map-get($map, nth($keys, 2)) - map-get($map, nth($keys, 1)))/(nth($keys, 2) - nth($keys,1));
+  $m: (map-get($map, nth($keys, 2)) - map-get($map, nth($keys, 1)))/ (nth(
+          $keys,
+          2
+        ) - nth($keys, 1));
 
   // The y-intercept
   $b: map-get($map, nth($keys, 1)) - $m * nth($keys, 1);
@@ -23,7 +26,7 @@
     $b: abs($b);
   }
 
-  @return calc(#{$m*100}vw #{$sign} #{$b});
+  @return calc(#{$m * 100}vw #{$sign} #{$b});
 }
 
 /// poly-fluid-sizing
@@ -41,7 +44,7 @@
 
   // Error if the number of breakpoints is < 2
   @if ($length < 2) {
-    @error "poly-fluid-sizing() $map requires at least values"
+    @error "poly-fluid-sizing() $map requires at least values";
   }
 
   // Sort the map by viewport width (key)
@@ -54,7 +57,12 @@
   // Interpolated size through breakpoints
   @for $i from 1 through ($length - 1) {
     @media (min-width: nth($keys, $i)) {
-      #{$property}: linear-interpolation((nth($keys, $i): map-get($map, nth($keys, $i)), nth($keys, ($i+1)): map-get($map, nth($keys, ($i + 1)))));
+      #{$property}: linear-interpolation(
+        (
+          nth($keys, $i): map-get($map, nth($keys, $i)),
+          nth($keys, ($i + 1)): map-get($map, nth($keys, ($i + 1))),
+        )
+      );
     }
   }
 
@@ -74,7 +82,7 @@
   $newList: ();
   @for $i from 1 through length($list) {
     @if $i != $index {
-      $newList: append($newList, nth($list, $i), 'space');
+      $newList: append($newList, nth($list, $i), "space");
     }
   }
   @return $newList;
@@ -95,7 +103,7 @@
         $value: $item;
       }
     }
-    $sortedlist: append($sortedlist, $value, 'space');
+    $sortedlist: append($sortedlist, $value, "space");
     $list: list-remove($list, index($list, $value));
   }
   @return $sortedlist;
@@ -111,7 +119,12 @@
   $keys: list-sort(map-keys($map));
   $sortedMap: ();
   @each $key in $keys {
-    $sortedMap: map-merge($sortedMap, ($key: map-get($map, $key)));
+    $sortedMap: map-merge(
+      $sortedMap,
+      (
+        $key: map-get($map, $key),
+      )
+    );
   }
   @return $sortedMap;
 }
@@ -119,6 +132,10 @@
 /* BASIS FOR REM CONFIGURATIONS: 16:9 resolution */
 /* Based on different Vuetify breakpoints/thresholds */
 html {
-  $map: (512px: 10px, 1280px: 16px, 1920px: 20px);
-  @include poly-fluid-sizing('font-size', $map);
+  $map: (
+    512px: 10px,
+    1280px: 16px,
+    1920px: 20px,
+  );
+  @include poly-fluid-sizing("font-size", $map);
 }

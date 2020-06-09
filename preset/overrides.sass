@@ -1,3 +1,66 @@
 // This is a catch all for style modifications that do not have corresponding variables to target. This is useful when you need to add new CSS properties to existing components.
 
 @import './variables.scss'
+
+.v-chip
+	@each $name, $size in $icon-sizes
+		&.v-size--#{$name}
+			border-radius: #{map-get($size, 'height') / (2 * $materialize-font-size)}rem
+			font-size: #{map-get($size, 'font-size') / ($materialize-font-size)}rem
+			height: #{map-get($size, 'height') / ($materialize-font-size)}rem
+			padding: 0 #{map-get($size, 'padding') / ($materialize-font-size)}rem
+
+			.v-chip__close.v-icon.v-icon--right
+				height: #{map-get($size, 'avatar-size') / ($materialize-font-size)}rem
+				width: #{map-get($size, 'avatar-size') / ($materialize-font-size)}rem
+
+				+ltr()
+					margin-right: #{map-get($size, 'icon-margin-before') / ($materialize-font-size)}rem
+
+				+rtl()
+					margin-left: #{map-get($size, 'icon-margin-before') / ($materialize-font-size)}rem
+
+			.v-avatar
+				height: #{map-get($size, 'avatar-size') / ($materialize-font-size)}rem !important
+				min-width: #{map-get($size, 'avatar-size') / ($materialize-font-size)}rem !important
+				width: #{map-get($size, 'avatar-size') / ($materialize-font-size)}rem !important
+
+			.v-avatar,
+			.v-icon
+				+ltr()
+					&--left
+						margin-left: #{map-get($size, 'icon-margin-before') / ($materialize-font-size)}rem
+						margin-right: #{map-get($size, 'icon-margin-after') / ($materialize-font-size)}rem
+
+					&--right
+						margin-left: #{map-get($size, 'icon-margin-after') / ($materialize-font-size)}rem
+						margin-right: #{map-get($size, 'icon-margin-before') / ($materialize-font-size)}rem
+
+				+rtl()
+					&--left
+						margin-left: #{map-get($size, 'icon-margin-after') / ($materialize-font-size)}rem
+						margin-right: #{map-get($size, 'icon-margin-before') / ($materialize-font-size)}rem
+
+					&--right
+						margin-left: #{map-get($size, 'icon-margin-before') / ($materialize-font-size)}rem
+						margin-right: #{map-get($size, 'icon-margin-after') / ($materialize-font-size)}rem
+
+			&.v-chip--pill
+				.v-avatar
+					height: #{map-get($size, 'pill-avatar-size') / ($materialize-font-size)}rem !important
+					min-width: #{map-get($size, 'pill-avatar-size') / ($materialize-font-size)}rem !important
+					width: #{map-get($size, 'pill-avatar-size') / ($materialize-font-size)}rem !important
+
+					+ltr()
+						&--left
+							margin-left: #{map-get($size, 'pill-avatar-margin-before') / ($materialize-font-size)}rem
+
+						&--right
+							margin-right: #{map-get($size, 'pill-avatar-margin-before') / ($materialize-font-size)}rem
+
+					+rtl()
+						&--left
+							margin-right: #{map-get($size, 'pill-avatar-margin-before') / ($materialize-font-size)}rem
+
+						&--right
+							margin-left: #{map-get($size, 'pill-avatar-margin-before') / ($materialize-font-size)}rem
