@@ -1,0 +1,1114 @@
+// This is a Vuetify SASS variables file which will overwrite existing framework values.
+// You can find more information about available variables on the Vuetify SASS Variables documentation page or within the API section of a component.
+
+// Modifying this to affect REM Sizing
+
+$materialize-font-size: 16;
+
+$font-size-root: (16 / $materialize-font-size) * 1rem;
+
+// Global SASS Variables
+
+$blockquote-font-size: (18 / $materialize-font-size) * 1rem;
+
+$border-radius-root: (4 / $materialize-font-size) * 1rem;
+
+$code-kbd-border-radius: (3 / $materialize-font-size) * 1rem;
+
+$input-top-spacing: (16 / $materialize-font-size) * 1rem;
+
+$spacer: (4 / $materialize-font-size) * 1rem;
+
+$text-field-active-label-height: (12 / $materialize-font-size) * 1rem;
+
+// App Bar
+
+$app-bar-scrolled-title-padding-bottom: (9 / $materialize-font-size) * 1rem;
+
+// Alert
+
+$alert-border-width: (4 / $materialize-font-size) * 1rem;
+
+$alert-font-size: (16 / $materialize-font-size) * 1rem;
+
+$alert-icon-size: (24 / $materialize-font-size) * 1rem;
+
+$alert-margin: (16 / $materialize-font-size) * 1rem;
+
+$alert-padding: (16 / $materialize-font-size) * 1rem;
+
+$alert-prominent-icon-font-size: (32 / $materialize-font-size) * 1rem;
+
+$alert-prominent-icon-size: (48 / $materialize-font-size) * 1rem;
+
+// Auto Complete
+
+$autocomplete-dense-enclosed-input-margin-top: (20 / $materialize-font-size) * 1rem;
+
+$autocomplete-enclosed-input-margin-top: (24 / $materialize-font-size) * 1rem;
+
+// Badge
+
+$badge-border-radius: (10 / $materialize-font-size) * 1rem;
+
+$badge-bordered-width: (2 / $materialize-font-size) * 1rem;
+
+$badge-dot-border-radius: (4.5 / $materialize-font-size) * 1rem;
+
+$badge-dot-border-width: (1.5 / $materialize-font-size) * 1rem;
+
+$badge-dot-height: (9 / $materialize-font-size) * 1rem;
+
+$badge-dot-width: (9 / $materialize-font-size) * 1rem;
+
+$badge-font-size: (12 / $materialize-font-size) * 1rem;
+
+$badge-height: (20 / $materialize-font-size) * 1rem;
+
+$badge-icon-margin: 0 (-2 / $materialize-font-size) * 1rem;
+
+$badge-icon-padding: (4 / $materialize-font-size) * 1rem (6 / $materialize-font-size) * 1rem;
+
+$badge-min-width: (20 / $materialize-font-size) * 1rem;
+
+$badge-padding: (4 / $materialize-font-size) * 1rem (6 / $materialize-font-size) * 1rem;
+
+$badge-wrapper-margin: 0 (4 / $materialize-font-size) * 1rem;
+
+// Banner
+
+$banner-actions-margin: (8 / $materialize-font-size) * 1rem;
+
+$banner-actions-start-margin: (90 / $materialize-font-size) * 1rem;
+
+$banner-content-padding: (8 / $materialize-font-size) * 1rem;
+
+$banner-end-padding: (8 / $materialize-font-size) * 1rem;
+
+$banner-icon-padding: (16 / $materialize-font-size) * 1rem;
+
+$banner-line-height: (20 / $materialize-font-size) * 1rem;
+
+$banner-start-padding: (24 / $materialize-font-size) * 1rem;
+
+$banner-y-padding: (16 / $materialize-font-size) * 1rem;
+
+$banner-mobile-padding: (10 / $materialize-font-size) * 1rem;
+
+$banner-mobile-multiline-padding: (24 / $materialize-font-size) * 1rem;
+
+$banner-mobile-start-padding: (16 / $materialize-font-size) * 1rem;
+
+$banner-mobile-top-padding: (16 / $materialize-font-size) * 1rem;
+
+$banner-mobile-actions-top-padding: (12 / $materialize-font-size) * 1rem;
+
+$banner-mobile-singleline-padding: (36 / $materialize-font-size) * 1rem;
+
+// Bottom Navigation
+
+$bottom-nav-btn-max-width: (168 / $materialize-font-size) * 1rem;
+
+$bottom-nav-btn-min-width: (80 / $materialize-font-size) * 1rem;
+
+$bottom-nav-shift-btn-active-top: calc(100% - #{22 / $materialize-font-size} * 1rem);
+
+$bottom-nav-shift-btn-top: calc(100% - #{12 / $materialize-font-size} * 1rem);
+
+// Breadcrumbs
+
+$breadcrumbs-even-child-padding: 0 (12 / $materialize-font-size) * 1rem;
+
+$breadcrumbs-item-font-size: (14 / $materialize-font-size) * 1rem;
+
+$breadcrumbs-item-large-font-size: (16 / $materialize-font-size) * 1rem;
+
+$breadcrumbs-padding: (18 / $materialize-font-size) * 1rem (12 / $materialize-font-size) * 1rem;
+
+$breadcrumbs-padding: 0 (14 / $materialize-font-size) * 1rem;
+
+// Button
+
+$btn-icon-font-size: (18 / $materialize-font-size) * 1rem;
+
+$btn-icon-padding: (12 / $materialize-font-size) * 1rem;
+
+$btn-rounded-border-radius: (28 / $materialize-font-size) * 1rem;
+
+// Toggle Button
+
+$btn-toggle-btn-height: (48 / $materialize-font-size) * 1rem;
+
+$btn-toggle-btn-padding: 0 (12 / $materialize-font-size) * 1rem;
+
+$btn-toggle-btn-width: (48 / $materialize-font-size) * 1rem;
+
+$btn-toggle-dense-btn-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$btn-toggle-group-btn-margin: (4 / $materialize-font-size) * 1rem;
+
+$btn-toggle-round-border-radius: (24 / $materialize-font-size) * 1rem;
+
+$btn-toggle-shaped-border-radius: (24 / $materialize-font-size) * 1rem;
+
+// Card
+
+$card-actions-padding: (8 / $materialize-font-size) * 1rem;
+
+$card-btn-margin-x: (8 / $materialize-font-size) * 1rem;
+
+$card-btn-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$card-btn-small-margin-x: (4 / $materialize-font-size) * 1rem;
+
+$card-shaped-border-radius: (24 / $materialize-font-size) * 1rem;
+
+$card-subtitle-padding: (16 / $materialize-font-size) * 1rem;
+
+$card-title-adjacent-sibling-subtitle-margin-top: (-16 / $materialize-font-size) * 1rem;
+
+// Carousel
+
+$carousel-controls-size: (50 / $materialize-font-size) * 1rem;
+
+$carousel-dot-margin: 0 (8 / $materialize-font-size) * 1rem;
+
+// Chips
+
+$chip-avatar-size: (24 / $materialize-font-size) * 1rem;
+
+$chip-close-size: (18 / $materialize-font-size) * 1rem;
+
+$chip-icon-margin-after: (8 / $materialize-font-size) * 1rem;
+
+$chip-icon-margin-before: (-6 / $materialize-font-size) * 1rem;
+
+$chip-icon-right-margin-after: (-4 / $materialize-font-size) * 1rem;
+
+$chip-icon-right-margin-before: (8 / $materialize-font-size) * 1rem;
+
+$chip-icon-size: (24 / $materialize-font-size) * 1rem;
+
+$chip-pill-avatar-margin-after: (8 / $materialize-font-size) * 1rem;
+
+$chip-pill-avatar-margin-before: (-12 / $materialize-font-size) * 1rem;
+
+$chip-pill-avatar-size: (32 / $materialize-font-size) * 1rem;
+
+$chip-pill-filter-margin: 0 (16 / $materialize-font-size) * 1rem 0 0;
+
+$chip-line-height: (20 / $materialize-font-size) * 1rem;
+
+$chip-padding: 0 (12 / $materialize-font-size) * 1rem;
+
+$chip-filter-max-width: (24 / $materialize-font-size) * 1rem;
+
+$chip-group-content-padding: (4 / $materialize-font-size) * 1rem 0;
+
+$chip-group-margin: (4 / $materialize-font-size) * 1rem (8 / $materialize-font-size) * 1rem (4 / $materialize-font-size) * 1rem 0;
+
+// Counter
+
+$counter-font-size: (12 / $materialize-font-size) * 1rem;
+
+$counter-min-height: (12 / $materialize-font-size) * 1rem;
+
+// Data Iterator
+
+$data-footer-icons-after-btn-margin-start: (7 / $materialize-font-size) * 1rem;
+
+$data-footer-icons-before-btn-margin-end: (7 / $materialize-font-size) * 1rem;
+
+$data-footer-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$data-footer-pagination-margin-end: (32 / $materialize-font-size) * 1rem;
+
+$data-footer-pagination-margin-start: (24 / $materialize-font-size) * 1rem;
+
+$data-footer-select-margin-end: (14 / $materialize-font-size) * 1rem;
+
+$data-footer-select-select-margin-start: (34 / $materialize-font-size) * 1rem;
+
+$data-footer-select-select-margin-y: (13 / $materialize-font-size) * 1rem;
+
+// Data Table
+
+$data-table-dense-header-height: (32 / $materialize-font-size) * 1rem;
+
+$data-table-dense-row-height: (24 / $materialize-font-size) * 1rem;
+
+$data-table-header-mobile-select-chip-height: (24 / $materialize-font-size) * 1rem;
+
+$data-table-header-mobile-select-margin-bottom: (8 / $materialize-font-size) * 1rem;
+
+$data-table-header-mobile-select-max-width: (56 / $materialize-font-size) * 1rem;
+
+$data-table-header-sort-badge-height: (18 / $materialize-font-size) * 1rem;
+
+$data-table-header-sort-badge-min-height: (18 / $materialize-font-size) * 1rem;
+
+$data-table-header-sort-badge-min-width: (18 / $materialize-font-size) * 1rem;
+
+$data-table-header-sort-badge-width: (18 / $materialize-font-size) * 1rem;
+
+$data-table-mobile-row-min-height: (48 / $materialize-font-size) * 1rem;
+
+$data-table-regular-header-height: (48 / $materialize-font-size) * 1rem;
+
+$data-table-regular-row-height: (48 / $materialize-font-size) * 1rem;
+
+$data-table-row-group-children-td-height: (35 / $materialize-font-size) * 1rem;
+
+$data-table-scroll-bar-width: (17 / $materialize-font-size) * 1rem;
+
+$edit-dialog-content-padding: 0 (16 / $materialize-font-size) * 1rem;
+
+$edit-dialog-actions-padding: (8 / $materialize-font-size) * 1rem;
+
+// Date Picker
+
+$date-picker-years-font-size: (16 / $materialize-font-size) * 1rem;
+
+$date-picker-years-portrait-height: (290 / $materialize-font-size) * 1rem;
+
+$date-picker-years-landscape-height: (290 / $materialize-font-size) * 1rem;
+
+$date-picker-years-item-padding: (8 / $materialize-font-size) * 1rem 0;
+
+$date-picker-years-active-font-size: (26 / $materialize-font-size) * 1rem;
+
+$date-picker-years-active-padding: (10 / $materialize-font-size) * 1rem 0;
+
+$date-picker-title-year-font-size: (14 / $materialize-font-size) * 1rem;
+
+$date-picker-title-year-bottom-margin: (8 / $materialize-font-size) * 1rem;
+
+$date-picker-title-date-font-size: (34 / $materialize-font-size) * 1rem;
+
+$date-picker-header-padding: (4 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+$date-picker-header-button-padding: (8 / $materialize-font-size) * 1rem;
+
+$date-picker-table-padding: 0 (12 / $materialize-font-size) * 1rem;
+
+$date-picker-table-height: (242 / $materialize-font-size) * 1rem;
+
+$date-picker-table-font-size: (12 / $materialize-font-size) * 1rem;
+
+$date-picker-table-date-button-width: (32 / $materialize-font-size) * 1rem;
+
+$date-picker-table-date-button-height: (32 / $materialize-font-size) * 1rem;
+
+$date-picker-table-month-height: (56 / $materialize-font-size) * 1rem;
+
+$date-picker-table-month-min-width: (40 / $materialize-font-size) * 1rem;
+
+$date-picker-table-month-max-width: (140 / $materialize-font-size) * 1rem;
+
+$date-picker-table-date-padding: (8 / $materialize-font-size) * 1rem 0;
+
+$date-picker-table-date-width: (45 / $materialize-font-size) * 1rem;
+
+$date-picker-event-size: (8 / $materialize-font-size) * 1rem;
+
+$date-picker-event-margin: 0 (1 / $materialize-font-size) * 1rem;
+
+$date-picker-event-border-radius: 50%;
+
+$date-picker-event-month-bottom: (6 / $materialize-font-size) * 1rem;
+
+$date-picker-event-date-bottom: (8 / $materialize-font-size) * 1rem;
+
+// Dialog
+
+$dialog-card-subtitle-padding: 0 (24 / $materialize-font-size) * 1rem (20 / $materialize-font-size) * 1rem;
+
+$dialog-card-text-padding: 0 (24 / $materialize-font-size) * 1rem (20 / $materialize-font-size) * 1rem;
+
+$dialog-card-title-padding: (16 / $materialize-font-size) * 1rem (24 / $materialize-font-size) * 1rem 1 (10 / $materialize-font-size)* 1rem;
+
+$dialog-margin: (24 / $materialize-font-size) * 1rem;
+
+// Divider
+
+$divider-inset-margin: (72 / $materialize-font-size) * 1rem;
+
+$divider-inset-margin-top: (8 / $materialize-font-size) * 1rem;
+
+$divider-inset-max-height: calc(100% - #{16 / $materialize-font-size} * 1rem);
+
+// Expansion Panel
+
+$expansion-panel-active-margin: (16 / $materialize-font-size) * 1rem;
+
+$expansion-panel-header-font-size: (15 / $materialize-font-size) * 1rem;
+
+$expansion-panel-header-min-height: (48 / $materialize-font-size) * 1rem;
+
+$expansion-panel-active-header-min-height: (64 / $materialize-font-size) * 1rem;
+
+$expansion-panel-header-padding: (16 / $materialize-font-size) * 1rem (24 / $materialize-font-size) * 1rem;
+
+$expansion-panel-content-padding: 0 (24 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+// File Input
+
+$file-input-filled-padding-top: (22 / $materialize-font-size) * 1rem;
+
+$file-input-chip-margin: (4 / $materialize-font-size) * 1rem;
+
+$file-input-outlined-padding: (6 / $materialize-font-size) * 1rem 0;
+
+$file-input-outlined-dense-padding: (3 / $materialize-font-size) * 1rem 0;
+
+$file-input-slot-min-height: (32 / $materialize-font-size) * 1rem;
+
+// Footer
+
+$footer-padding: (6 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+// Icon
+
+$icon-size: (24 / $materialize-font-size) * 1rem;
+
+$icon-size-dense: (20 / $materialize-font-size) * 1rem;
+
+// Input
+
+$input-font-size: (16 / $materialize-font-size) * 1rem;
+
+$input-max-height: (32 / $materialize-font-size) * 1rem;
+
+$input-label-height: (20 / $materialize-font-size) * 1rem;
+
+$input-label-letter-spacing: (20 / $materialize-font-size) * 1rem;
+
+$input-prepend-append-outer-margin: (9 / $materialize-font-size) * 1rem;
+
+$input-icon-height: (24 / $materialize-font-size) * 1rem;
+
+$input-icon-min-width: (24 / $materialize-font-size) * 1rem;
+
+$input-icon-width: (24 / $materialize-font-size) * 1rem;
+
+$input-slot-margin-bottom: (8 / $materialize-font-size) * 1rem;
+
+$input-dense-slot-margin-bottom: (4 / $materialize-font-size) * 1rem;
+
+// Label
+
+$label-font-size: (16 / $materialize-font-size) * 1rem;
+
+$label-min-height: (8 / $materialize-font-size) * 1rem;
+
+// List
+
+$avatar-margin-x: (16 / $materialize-font-size) * 1rem;
+
+$list-dense-subheader-font-size: (12 / $materialize-font-size) * 1rem;
+
+$list-dense-subheader-height: (40 / $materialize-font-size) * 1rem;
+
+$list-item-avatar-margin-y: (8 / $materialize-font-size) * 1rem;
+
+$list-item-avatar-horizontal-margin-x: (-16 / $materialize-font-size) * 1rem;
+
+$list-item-icon-margin-y: (16 / $materialize-font-size) * 1rem;
+
+$list-item-min-height: (48 / $materialize-font-size) * 1rem;
+
+$list-item-two-line-min-height: (64 / $materialize-font-size) * 1rem;
+
+$list-item-three-line-min-height: (88 / $materialize-font-size) * 1rem;
+
+$list-item-dense-title-font-size: (13 / $materialize-font-size) * 1rem;
+
+$list-padding: (8 / $materialize-font-size) * 1rem 0;
+
+$list-dense-subheading-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$list-nav-rounded-item-margin-bottom: (8 / $materialize-font-size) * 1rem;
+
+$list-nav-rounded-item-dense-margin-bottom: (4 / $materialize-font-size) * 1rem;
+
+$list-nav-padding-left: (8 / $materialize-font-size) * 1rem;
+
+$list-nav-padding-right: (8 / $materialize-font-size) * 1rem;
+
+$list-nav-item-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$list-shaped-padding: (8 / $materialize-font-size) * 1rem;
+
+$list-group-header-icon-min-width: (48 / $materialize-font-size) * 1rem;
+
+$list-group-sub-group-child-margin: (16 / $materialize-font-size) * 1rem;
+
+$list-group-sub-group-header-margin: (32 / $materialize-font-size) * 1rem;
+
+$list-group-items-item-padding: (40 / $materialize-font-size) * 1rem;
+
+$list-group-no-action-item-padding: (72 / $materialize-font-size) * 1rem;
+
+$list-dense-subheader-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$list-nav-rounded-dense-item-margin-bottom: (4 / $materialize-font-size) * 1rem;
+
+$list-group-no-action-sub-group-item-padding: (88 / $materialize-font-size) * 1rem;
+
+$list-group-dense-sub-group-header-padding: (24 / $materialize-font-size) * 1rem;
+
+$list-group-nav-no-action-item-padding: (64 / $materialize-font-size) * 1rem;
+
+$list-group-sub-group-item-padding: (80 / $materialize-font-size) * 1rem;
+
+$list-item-padding: 0 (16 / $materialize-font-size) * 1rem;
+
+$list-item-action-margin: (12 / $materialize-font-size) * 1rem 0;
+
+$list-item-avatar-horizontal-margin: (8 / $materialize-font-size) * 1rem;
+
+$list-item-content-padding: (12 / $materialize-font-size) * 1rem 0;
+
+$list-item-content-children-margin-bottom: (2 / $materialize-font-size) * 1rem;
+
+$list-item-icon-margin: (16 / $materialize-font-size) * 1rem 0;
+
+$list-item-child-last-type-margin: (16 / $materialize-font-size) * 1rem;
+
+$list-item-child-min-width: (24 / $materialize-font-size) * 1rem;
+
+$list-item-avatar-first-child-margin: (16 / $materialize-font-size) * 1rem;
+
+$list-item-action-icon-margin: (32 / $materialize-font-size) * 1rem;
+
+$list-dense-icon-height: (24 / $materialize-font-size) * 1rem;
+
+$list-dense-icon-margin: (8 / $materialize-font-size) * 1rem;
+
+$list-dense-min-height: (40 / $materialize-font-size) * 1rem;
+
+$list-item-dense-two-line-min-height: (60 / $materialize-font-size) * 1rem;
+
+$list-item-dense-three-line-min-height: (76 / $materialize-font-size) * 1rem;
+
+$list-dense-content-padding: (8 / $materialize-font-size) * 1rem 0;
+
+$list-item-two-line-icon-margin-bottom: (32 / $materialize-font-size) * 1rem;
+
+$list-item-three-line-avatar-action-margin: (16 / $materialize-font-size) * 1rem;
+
+// Messages
+
+$messages-font-size: (12 / $materialize-font-size) * 1rem;
+
+$messages-min-height: (14 / $materialize-font-size) * 1rem;
+
+// Overflow Button
+
+$overflow-append-inner-height: (48 / $materialize-font-size) * 1rem;
+
+$overflow-append-inner-width: (42 / $materialize-font-size) * 1rem;
+
+$overflow-append-prepend-margin-bottom: (12 / $materialize-font-size) * 1rem;
+
+$overflow-append-prepend-margin-top: (12 / $materialize-font-size) * 1rem;
+
+$overflow-dense-input-margin-x: (16 / $materialize-font-size) * 1rem;
+
+$overflow-dense-slot-height: (38 / $materialize-font-size) * 1rem;
+
+$overflow-focused-active-slot-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+
+$overflow-input-slot-border-width: (2 / $materialize-font-size) * 1rem 0;
+
+$overflow-label-margin-x: (16 / $materialize-font-size) * 1rem;
+
+$overflow-label-top: calc(50% - #{10 / $materialize-font-size} * 1rem);
+
+$overflow-margin-top: (12 / $materialize-font-size) * 1rem;
+
+$overflow-segmented-selections-btn-height: (48 / $materialize-font-size) * 1rem;
+
+$overflow-segmented-selections-btn-margin-x: (-16 / $materialize-font-size) * 1rem;
+
+$overflow-selection-comma-margin-x: (16 / $materialize-font-size) * 1rem;
+
+$overflow-slot-height: (48 / $materialize-font-size) * 1rem;
+
+$overflow-editable-select-slot-padding: (8 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+// Pagination
+
+$pagination-item-height: (34 / $materialize-font-size) * 1rem;
+
+$pagination-item-margin: (4.8 / $materialize-font-size) * 1rem;
+
+$pagination-item-min-width: (34 / $materialize-font-size) * 1rem;
+
+$pagination-item-padding: 0 (5 / $materialize-font-size) * 1rem;
+
+$pagination-more-height: (32 / $materialize-font-size) * 1rem;
+
+$pagination-more-margin: (4.8 / $materialize-font-size) * 1rem;
+
+$pagination-more-width: (32 / $materialize-font-size) * 1rem;
+
+$pagination-navigation-height: (32 / $materialize-font-size) * 1rem;
+
+$pagination-navigation-margin: (4.8 / $materialize-font-size) * 1rem (10 / $materialize-font-size) * 1rem;
+
+$pagination-navigation-width: (32 / $materialize-font-size) * 1rem;
+
+// Picker
+
+$picker-title-padding: (16 / $materialize-font-size) * 1rem;
+
+$picker-landscape-title-width: (170 / $materialize-font-size) * 1rem;
+
+// Progress Linear
+
+$progress-linear-stream-border-width: (4 / $materialize-font-size) * 1rem;
+
+$progress-linear-stripe-background-size: (40 / $materialize-font-size) * 1rem (40 / $materialize-font-size) * 1rem;
+
+// Radio Group
+
+$radio-margin-right: (16 / $materialize-font-size) * 1rem;
+
+$radio-group-padding: (8 / $materialize-font-size) * 1rem;
+
+// Select
+
+$select-chip-margin: (4 / $materialize-font-size) * 1rem;
+
+$select-dense-chip-margin: 0 (4 / $materialize-font-size) * 1rem 0 (4 / $materialize-font-size) * 1rem;
+
+$select-prefix-line-height: (20 / $materialize-font-size) * 1rem;
+
+$select-prefix-top: (7 / $materialize-font-size) * 1rem;
+
+$select-selections-padding-top: (20 / $materialize-font-size) * 1rem;
+
+$select-outlined-selections-padding-top: (8 / $materialize-font-size) * 1rem 0;
+
+$select-outlined-dense-selections-padding-top: (4 / $materialize-font-size) * 1rem 0;
+
+$select-chips-selections-padding-top: (42 / $materialize-font-size) * 1rem;
+
+$select-chips-dense-selections-padding-top: (40 / $materialize-font-size) * 1rem;
+
+$select-small-chips-selections-min-height: (26 / $materialize-font-size) * 1rem;
+
+$select-chips-box-enclosed-selections-min-height: (68 / $materialize-font-size) * 1rem;
+
+$select-chips-dense-selections-min-height: (40 / $materialize-font-size) * 1rem;
+
+$select-small-chips-dense-selections-min-height: (38 / $materialize-font-size) * 1rem;
+
+$select-selections-line-height: (18 / $materialize-font-size) * 1rem;
+
+$select-selections-margin: ((7 / $materialize-font-size) * 1rem) ((4 / $materialize-font-size) * 1rem) ((7 / $materialize-font-size)* 1rem) 0;
+
+$select-dense-selections-margin: ((5 / $materialize-font-size) * 1rem) ((4 / $materialize-font-size) * 1rem) ((3 / $materialize-font-size)* 1rem) 0;
+
+// Skeleton Loader
+
+$skeleton-loader-actions-button-margin: (12 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-actions-padding: (16 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem (8 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-article-heading-margin-top-left: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-article-heading-margin-x: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-article-paragraph-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-avatar-height: (48 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-avatar-height: (56 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-avatar-width: (48 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-button-height: (36 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-button-width: (64 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-card-heading-loader-heading-margin: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-card-text-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-chip-border-radius: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-chip-height: (32 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-chip-width: (96 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-days-height: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-days-margin: (4 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-days-padding: 0 (12 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-days-width: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-options-avatar-child-margin: (8 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-options-avatar-height: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-options-avatar-width: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-date-picker-options-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-divider-border-radius: (1 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-divider-height: (2 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-heading-border-radius: (12 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-heading-height: (24 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-image-height: (200 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-item-avatar-height: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-item-avatar-margin: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-item-avatar-width: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-item-padding: 0 (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-item-three-line-height: (88 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-item-two-line-height: (72 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-list-item-height: (48 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-cell-height: (48 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-cell-width: (88 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-heading-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-tbody-padding: (16 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem 0;
+
+$skeleton-loader-table-tfoot-avatar-height: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-tfoot-avatar-width: (40 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-tfoot-children-margin: (8 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-tfoot-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-thead-heading-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-table-thead-padding: (16 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-text-border-radius: (6 / $materialize-font-size) * 1rem;
+
+$skeleton-loader-text-height: (12 / $materialize-font-size) * 1rem;
+
+// Slider
+
+$slide-group-prev-basis: (52 / $materialize-font-size) * 1rem;
+
+$slider-horizontal-left: (8 / $materialize-font-size) * 1rem;
+
+$slider-horizontal-min-height: (32 / $materialize-font-size) * 1rem;
+
+$slider-horizontal-right: (8 / $materialize-font-size) * 1rem;
+
+$slider-label-margin-end: (12 / $materialize-font-size) * 1rem;
+
+$slider-label-margin-start: (12 / $materialize-font-size) * 1rem;
+
+$slider-thumb-focused-size-increase: (24 / $materialize-font-size) * 1rem;
+
+$slider-thumb-label-height: (32 / $materialize-font-size) * 1rem;
+
+$slider-thumb-label-width: (32 / $materialize-font-size) * 1rem;
+
+$slider-thumb-size: (12 / $materialize-font-size) * 1rem;
+
+$slider-track-width: (2 / $materialize-font-size) * 1rem;
+
+$slider-vertical-margin-bottom: (12 / $materialize-font-size) * 1rem;
+
+$slider-vertical-margin-top: (12 / $materialize-font-size) * 1rem;
+
+$slider-vertical-min-height: (150 / $materialize-font-size) * 1rem;
+
+// Snackbar
+
+$snackbar-bottom: (8 / $materialize-font-size) * 1rem;
+
+$snackbar-btn-margin-left: (24 / $materialize-font-size) * 1rem;
+
+$snackbar-btn-margin-right: (-8 / $materialize-font-size) * 1rem;
+
+$snackbar-content-first-btn-margin: (42 / $materialize-font-size) * 1rem;
+
+$snackbar-content-min-height: (48 / $materialize-font-size) * 1rem;
+
+$snackbar-content-padding: (8 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+$snackbar-corner-offset: (16 / $materialize-font-size) * 1rem;
+
+$snackbar-left: (8 / $materialize-font-size) * 1rem;
+
+$snackbar-multi-line-content-min-height: (68 / $materialize-font-size) * 1rem;
+
+$snackbar-right: (8 / $materialize-font-size) * 1rem;
+
+$snackbar-top: (8 / $materialize-font-size) * 1rem;
+
+$snackbar-vertical-content-btn-margin-top: (18 / $materialize-font-size) * 1rem;
+
+$snackbar-vertical-content-padding: (16 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem (8 / $materialize-font-size) * 1rem;
+
+$snackbar-wrapper-max-width: (672 / $materialize-font-size) * 1rem;
+
+$snackbar-wrapper-min-width: (344 / $materialize-font-size) * 1rem;
+
+// Speed Dial
+
+$speed-dial-padding: (16 / $materialize-font-size) * 1rem;
+
+$speed-dial-button-margin: (6 / $materialize-font-size) * 1rem;
+
+// Stepper
+
+$stepper-alt-labels-flex-basis: (175 / $materialize-font-size) * 1rem;
+
+$stepper-alt-labels-header-divider: (35 / $materialize-font-size) * 1rem (-67 / $materialize-font-size) * 1rem 0;
+
+$stepper-alt-labels-step-step-margin-bottom: (11 / $materialize-font-size) * 1rem;
+
+$stepper-content-btn-margin: (24 / $materialize-font-size) * 1rem (8 / $materialize-font-size) * 1rem (8 / $materialize-font-size)* 1rem 0;
+
+$stepper-content-padding: (24 / $materialize-font-size) * 1rem (24 / $materialize-font-size) * 1rem (16 / $materialize-font-size)* 1rem (24 / $materialize-font-size) * 1rem;
+
+$stepper-header-divider-margin: 0 (-16 / $materialize-font-size) * 1rem;
+
+$stepper-header-height: (72 / $materialize-font-size) * 1rem;
+
+$stepper-label-line-height: 1;
+
+$stepper-step-padding: (24 / $materialize-font-size) * 1rem;
+
+$stepper-step-step-height: (24 / $materialize-font-size) * 1rem;
+
+$stepper-step-step-margin: (8 / $materialize-font-size) * 1rem;
+
+$stepper-step-step-min-width: (24 / $materialize-font-size) * 1rem;
+
+$stepper-step-step-width: (24 / $materialize-font-size) * 1rem;
+
+$stepper-vertical-content-ltr-margin: (-8 / $materialize-font-size) * 1rem (-36 / $materialize-font-size) * 1rem (-16 / $materialize-font-size) * 1rem (36 / $materialize-font-size) * 1rem;
+
+$stepper-vertical-content-rtl-margin: (-8 / $materialize-font-size) * 1rem (36 / $materialize-font-size) * 1rem (-16 / $materialize-font-size) * 1rem (-36 / $materialize-font-size) * 1rem;
+
+$stepper-vertical-content-padding: (16 / $materialize-font-size) * 1rem (60 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem (23 / $materialize-font-size) * 1rem;
+
+$stepper-vertical-padding-bottom: (36 / $materialize-font-size) * 1rem;
+
+$stepper-vertical-step-padding: (24 / $materialize-font-size) * 1rem (24 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+$stepper-vertical-step-step-margin: (12 / $materialize-font-size) * 1rem;
+
+// Subheader
+
+$subheader-inset-margin: (56 / $materialize-font-size) * 1rem;
+
+$subheader-item-single-height: (48 / $materialize-font-size) * 1rem;
+
+$subheader-left-padding: (16 / $materialize-font-size) * 1rem;
+
+$subheader-right-padding: (16 / $materialize-font-size) * 1rem;
+
+// Switch
+
+$switch-dirty-offset-x: 20px;
+
+$switch-ripple-dense-top: calc(50% - #{22 / $materialize-font-size} * 1rem);
+
+$switch-ripple-dense-x: (-12 / $materialize-font-size) * 1rem;
+
+$switch-ripple-top: calc(50% - #{24 / $materialize-font-size} * 1rem);
+
+$switch-ripple-x: (-14 / $materialize-font-size) * 1rem;
+
+$switch-thumb-dense-height: (18 / $materialize-font-size) * 1rem;
+
+$switch-thumb-dense-width: (18 / $materialize-font-size) * 1rem;
+
+$switch-thumb-height: (20 / $materialize-font-size) * 1rem;
+
+$switch-thumb-top: calc(50% - #{10 / $materialize-font-size} * 1rem);
+
+$switch-thumb-width: (20 / $materialize-font-size) * 1rem;
+
+$switch-track-border-radius: (8 / $materialize-font-size) * 1rem;
+
+$switch-track-dense-height: (12 / $materialize-font-size) * 1rem;
+
+$switch-track-dense-inset-height: (22 / $materialize-font-size) * 1rem;
+
+$switch-track-dense-inset-width: (44 / $materialize-font-size) * 1rem;
+
+$switch-track-dense-top: calc(50% - #{12 / $materialize-font-size} * 1rem);
+
+$switch-track-dense-width: (32 / $materialize-font-size) * 1rem;
+
+$switch-track-height: (14 / $materialize-font-size) * 1rem;
+
+$switch-track-inset-border-radius: (14 / $materialize-font-size) * 1rem;
+
+$switch-track-inset-height: (28 / $materialize-font-size) * 1rem;
+
+$switch-track-inset-width: (48 / $materialize-font-size) * 1rem;
+
+$switch-track-top: calc(50% - #{ 7 / $materialize-font-size} * 1rem);
+
+$switch-track-width: (36 / $materialize-font-size) * 1rem;
+
+$switch-track-x: (2 / $materialize-font-size) * 1rem;
+
+$switch-width: (38 / $materialize-font-size) * 1rem;
+
+// System Bar
+
+$system-bar-padding: 0 (8 / $materialize-font-size) * 1rem;
+
+$system-bar-icon-margin-right: (4 / $materialize-font-size) * 1rem;
+
+$system-bar-window-icon-margin-right: (8 / $materialize-font-size) * 1rem;
+
+// Tabs
+
+$tabs-bar-height: (48 / $materialize-font-size) * 1rem;
+
+$tabs-icons-and-text-bar-height: (72 / $materialize-font-size) * 1rem;
+
+$tabs-icons-and-text-first-tab-margin-bottom: (6 / $materialize-font-size) * 1rem;
+
+$tabs-item-align-with-title-margin: (42 / $materialize-font-size) * 1rem;
+
+$tabs-item-max-width: (360 / $materialize-font-size) * 1rem;
+
+$tabs-item-min-width: (90 / $materialize-font-size) * 1rem;
+
+$tabs-item-padding: 0 (16 / $materialize-font-size) * 1rem;
+
+// Textarea
+
+$textarea-box-enclosed-prefix-margin-top: (24 / $materialize-font-size) * 1rem;
+
+$textarea-box-enclosed-single-outlined-label-top: (18 / $materialize-font-size) * 1rem;
+
+$textarea-box-enclosed-single-outlined-margin-top: (10 / $materialize-font-size) * 1rem;
+
+$textarea-dense-box-enclosed-single-outlined-margin-top: (6 / $materialize-font-size) * 1rem;
+
+$textarea-dense-append-prepend-margin-top: (8 / $materialize-font-size) * 1rem;
+
+$textarea-enclosed-text-slot-margin: (-12 / $materialize-font-size) * 1rem;
+
+$textarea-enclosed-text-slot-padding: (12 / $materialize-font-size) * 1rem;
+
+$textarea-min-height: (32 / $materialize-font-size) * 1rem;
+
+$textarea-prefix-padding-top: (2 / $materialize-font-size) * 1rem;
+
+$textarea-solo-append-padding: (12 / $materialize-font-size) * 1rem;
+
+$textarea-solo-append-prepend-margin-top: (12 / $materialize-font-size) * 1rem;
+
+// Text Field
+
+$text-field-line-height: (20 / $materialize-font-size) * 1rem;
+
+$text-field-padding: (8 / $materialize-font-size) * 1rem 0 (8 / $materialize-font-size) * 1rem;
+
+$text-field-dense-padding: (4 / $materialize-font-size) * 1rem 0 (2 / $materialize-font-size) * 1rem;
+
+$text-field-append-prepend-margin: (4 / $materialize-font-size) * 1rem;
+
+$text-field-dense-icon-append-prepend-margin-top: (8 / $materialize-font-size) * 1rem;
+
+$text-field-filled-full-width-outlined-slot-min-height: (56 / $materialize-font-size) * 1rem;
+
+$text-field-filled-full-width-outlined-dense-slot-min-height: (52 / $materialize-font-size) * 1rem;
+
+$text-field-filled-full-width-outlined-single-line-slot-min-height: (40 / $materialize-font-size) * 1rem;
+
+$text-field-counter-margin: (8 / $materialize-font-size) * 1rem;
+
+$text-field-label-top: (6 / $materialize-font-size) * 1rem;
+
+$text-field-details-min-height: (14 / $materialize-font-size) * 1rem;
+
+$text-field-filled-full-width-label-top: (18 / $materialize-font-size) * 1rem;
+
+$text-field-dense-label-top: (17 / $materialize-font-size) * 1rem;
+
+$text-field-single-line-label-top: (11 / $materialize-font-size) * 1rem;
+
+$text-field-filled-margin-top: (22 / $materialize-font-size) * 1rem;
+
+$text-field-enclosed-prepend-append-margin-top: (17 / $materialize-font-size) * 1rem;
+
+$text-field-dense-prepend-append-margin-top: (14 / $materialize-font-size) * 1rem;
+
+$text-field-single-line-prepend-append-margin-top: (9 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-prepend-append-margin-top: (8 / $materialize-font-size) * 1rem;
+
+$text-field-enclosed-details-padding: 0 (12 / $materialize-font-size) * 1rem;
+
+$text-field-details-margin-bottom: (8 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-margin-bottom: (16 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-label-position-x: (18 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-label-position-y: (-24 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-dense-label-position-x: (10 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-dense-label-position-y: (-16 / $materialize-font-size) * 1rem;
+
+$text-field-prefix-max-height: (32 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-append-prepend-outer-margin-top: (18 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-fieldset-top: (-5 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-fieldset-border-width: (1 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-fieldset-padding: (8 / $materialize-font-size) * 1rem;
+
+$text-field-outlined-legend-line-height: (11 / $materialize-font-size) * 1rem;
+
+$text-field-rounded-legend-margin: (12 / $materialize-font-size) * 1rem;
+
+$text-field-rounded-border-radius: (28 / $materialize-font-size) * 1rem;
+
+$text-field-shaped-border-radius: (16 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem 0 0;
+
+$text-field-outlined-rounded-slot-padding: 0 (24 / $materialize-font-size) * 1rem;
+
+$text-field-solo-label-top: calc(50% - #{9 / $materialize-font-size} * 1rem);
+
+$text-field-solo-control-min-height: (48 / $materialize-font-size) * 1rem;
+
+$text-field-solo-dense-control-min-height: (38 / $materialize-font-size) * 1rem;
+
+$text-field-solo-outer-margin-top: (12 / $materialize-font-size) * 1rem;
+
+$text-field-solo-dense-outer-margin-top: (7 / $materialize-font-size) * 1rem;
+
+// Timeline
+
+$timeline-divider-width: (96 / $materialize-font-size) * 1rem;
+
+$timeline-item-padding: (24 / $materialize-font-size) * 1rem;
+
+$timeline-line-width: (2 / $materialize-font-size) * 1rem;
+
+$timeline-wedge-size: (10 / $materialize-font-size) * 1rem;
+
+$timeline-dot-small-size: (24 / $materialize-font-size) * 1rem;
+
+$timeline-dot-regular-size: (38 / $materialize-font-size) * 1rem;
+
+$timeline-dot-large-size: (52 / $materialize-font-size) * 1rem;
+
+$timeline-inner-dot-small-size: (18 / $materialize-font-size) * 1rem;
+
+$timeline-inner-dot-regular-size: (30 / $materialize-font-size) * 1rem;
+
+$timeline-inner-dot-large-size: (42 / $materialize-font-size) * 1rem;
+
+// TimePicker
+
+$time-picker-title-btn-height: (70 / $materialize-font-size) * 1rem;
+
+$time-picker-landscape-title-btn-height: (55 / $materialize-font-size) * 1rem;
+
+$time-picker-ampm-title-margin-start: (8 / $materialize-font-size) * 1rem;
+
+$time-picker-ampm-title-margin-bottom: (6 / $materialize-font-size) * 1rem;
+
+$time-picker-ampm-title-font-size: (16 / $materialize-font-size) * 1rem;
+
+$time-picker-landscape-ampm-title-margin: (16 / $materialize-font-size) * 1rem 0 0;
+
+$time-picker-number-font-size: (16 / $materialize-font-size) * 1rem;
+
+$time-picker-indicator-size: (40 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-padding: (10 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-max-width: (290 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-hand-height: calc(50% - #{4 / $materialize-font-size} * 1rem);
+
+$time-picker-clock-hand-width: (2 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-hand-left: calc(50% - #{1 / $materialize-font-size} * 1rem);
+
+$time-picker-clock-center-size: (8 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-end-size: (10 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-end-top: (-4 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-inner-hand-height: (14 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-inner-offset: (27 / $materialize-font-size) * 1rem;
+
+$time-picker-ampm-padding: (10 / $materialize-font-size) * 1rem;
+
+$time-picker-clock-end-border-width: (2 / $materialize-font-size) * 1rem;
+
+// Toolbar
+
+$toolbar-btn-icon-size: (48 / $materialize-font-size) * 1rem;
+
+$toolbar-content-padding-y: (4 / $materialize-font-size) * 1rem;
+
+$toolbar-content-padding-x: (16 / $materialize-font-size) * 1rem;
+
+$toolbar-title-padding: (20 / $materialize-font-size) * 1rem;
+
+$toolbar-collapsed-max-width: (112 / $materialize-font-size) * 1rem;
+
+$toolbar-collapsed-border-radius: (24 / $materialize-font-size) * 1rem;
+
+$toolbar-promient-padding: (6 / $materialize-font-size) * 1rem;
+
+// Tooltip
+
+$tooltip-font-size: (14 / $materialize-font-size) * 1rem;
+
+$tooltip-padding: (5 / $materialize-font-size) * 1rem (16 / $materialize-font-size) * 1rem;
+
+// Tree
+
+$treeview-node-height: (48 / $materialize-font-size) * 1rem;
+
+$treeview-node-height-dense: (40 / $materialize-font-size) * 1rem;
+
+$treeview-node-shaped-margin: (8 / $materialize-font-size) * 1rem;
+
+$treeview-node-padding: (8 / $materialize-font-size) * 1rem;
+
+$treeview-node-margin: (6 / $materialize-font-size) * 1rem;
+
+$treeview-node-level-width: (24 / $materialize-font-size) * 1rem;
+
+// Window
+
+$window-controls-margin: 0 (16 / $materialize-font-size) * 1rem;
+
+$window-controls-top: calc(50% - #{20 / $materialize-font-size} * 1rem);

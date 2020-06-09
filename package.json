@@ -1,0 +1,11 @@
+{
+  "name": "vue-cli-plugin-vuetify-preset-responsive",
+  "version": "0.0.1",
+  "description": "A Vue CLI Plugin that replaces 'px' with 'rem' in all component variables for poly fluid sizing",
+  "author": "Anantha Chetan <ananthachetan@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@vuetify/cli-plugin-utils": "^0.0.4"
+  }
+}
