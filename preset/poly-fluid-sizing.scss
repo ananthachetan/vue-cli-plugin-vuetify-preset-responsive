@@ -52,7 +52,7 @@
   $keys: map-keys($map);
 
   // Minimum size
-  #{$property}: map-get($map, nth($keys, 1));
+  #{$property}: map-get($map, nth($keys, 1)) !important;
 
   // Interpolated size through breakpoints
   @for $i from 1 through ($length - 1) {
@@ -62,13 +62,13 @@
           nth($keys, $i): map-get($map, nth($keys, $i)),
           nth($keys, ($i + 1)): map-get($map, nth($keys, ($i + 1))),
         )
-      );
+      ) !important;
     }
   }
 
   // Maxmimum size
   @media (min-width: nth($keys, $length)) {
-    #{$property}: map-get($map, nth($keys, $length));
+    #{$property}: map-get($map, nth($keys, $length)) !important;
   }
 }
 
