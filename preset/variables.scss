@@ -50,6 +50,8 @@ $autocomplete-dense-enclosed-input-margin-top: (20 / $materialize-font-size) *
 
 $autocomplete-enclosed-input-margin-top: (24 / $materialize-font-size) * 1rem;
 
+$autocomplete-focused-input: (64 / $materialize-font-size) * 1rem;
+
 // Badge
 
 $badge-border-radius: (10 / $materialize-font-size) * 1rem;
@@ -212,11 +214,6 @@ $chip-padding: 0 (12 / $materialize-font-size) * 1rem;
 
 $chip-filter-max-width: (24 / $materialize-font-size) * 1rem;
 
-$chip-group-content-padding: (4 / $materialize-font-size) * 1rem 0;
-
-$chip-group-margin: (4 / $materialize-font-size) * 1rem
-  (8 / $materialize-font-size) * 1rem (4 / $materialize-font-size) * 1rem 0;
-
 $icon-sizes: (
   "x-small": (
     "font-size": 10,
@@ -272,9 +269,16 @@ $icon-sizes: (
   ),
 );
 
+$chip-group-content-padding: (4 / $materialize-font-size) * 1rem 0;
+
+$chip-group-margin: (4 / $materialize-font-size) * 1rem
+  (8 / $materialize-font-size) * 1rem (4 / $materialize-font-size) * 1rem 0;
+
 // Counter
 
 $counter-font-size: (12 / $materialize-font-size) * 1rem;
+
+$counter-dense-font-size: (10 / $materialize-font-size) * 1rem;
 
 $counter-min-height: (12 / $materialize-font-size) * 1rem;
 
@@ -576,6 +580,8 @@ $list-item-three-line-avatar-action-margin: (16 / $materialize-font-size) * 1rem
 
 $messages-font-size: (12 / $materialize-font-size) * 1rem;
 
+$messages-dense-font-size: (11 / $materialize-font-size) * 1rem;
+
 $messages-min-height: (14 / $materialize-font-size) * 1rem;
 
 // Overflow Button
@@ -616,7 +622,7 @@ $overflow-editable-select-slot-padding: (8 / $materialize-font-size) * 1rem
 
 // Pagination
 
-$pagination-item-height: (34 / $materialize-font-size) * 1rem;
+$pagination-item-height: (4.8 / $materialize-font-size) * 1rem;
 
 $pagination-item-margin: (4.8 / $materialize-font-size) * 1rem;
 
